@@ -1,7 +1,12 @@
+import { useState } from 'react';
+
 function Course({ courses, onDelete }) {
+
+    const [reflesh, setReflesh] = useState('Kursların Hepsini Sildin!')
 
     return (
         <div>
+
             {courses.map((Courses) => (
                 <div key={Courses.id}>
                     <h1>{Courses.title}</h1>

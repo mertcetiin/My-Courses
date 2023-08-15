@@ -1,0 +1,25 @@
+{
+    "Courses": [
+        {
+            "title": "Angular",
+            "id": "1",
+            "content": "Merhaba Angular"
+        },
+        {
+            "title": "Bootstrap",
+            "id": "2"
+        },
+        {
+            "title": "C Programlama",
+            "id": "3"
+        },
+        {
+            "title": "Frontend Kursu",
+            "id": "4"
+        },
+        {
+            "title": "Html Kurse",
+            "id": "5"
+        }
+    ]
+}

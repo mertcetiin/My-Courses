@@ -6,7 +6,7 @@ function Course({ courses, onDelete }) {
 
     return (
         <div className="courseMainDiv">
-            <h1>Kurslarım</h1>
+            <h1>My courses</h1>
             <div className="cardDiv">
                 {courses.map((Courses) => (
                     <div key={Courses.id} className="card">
@@ -18,7 +18,7 @@ function Course({ courses, onDelete }) {
                 ))}
 
             </div>
-        </div >
+        </div>
     )
 }
 

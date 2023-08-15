@@ -4,7 +4,6 @@ import axios from 'axios';
 import { useState, useEffect } from 'react';
 import Loading from './components/Loading';
 
-
 function App() {
 
   const [courses, setCourses] = useState([]);
@@ -32,12 +31,18 @@ function App() {
 
 
   return (
-    <div className="courseMainDiv">
-      <h1>Kurslarım</h1>
+    <div>
       {loading ? (
         <Loading />
       ) : (
-        <Course courses={courses} onDelete={onDelete} />
+        <div>
+          {courses.length === 0 ? (
+            <div className='refleshDiv'>
+              <h2>Kursların Hepsini sildin!</h2>
+              <button onClick={fetchCourses}>Reflesh</button>
+            </div>
+          ) : (<Course courses={courses} onDelete={onDelete} />)}
+        </div>
       )}
 
     </div>

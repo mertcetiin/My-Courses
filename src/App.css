@@ -24,6 +24,7 @@
     color: red;
 }
 
+
 .cardDeleteBtn {
     width: 100px;
     padding: 10px;
@@ -31,4 +32,19 @@
     border: none;
     background-color: rebeccapurple;
     color: white;
+    cursor: pointer;
+}
+
+.refleshDiv {
+    text-align: center;
+}
+
+.refleshDiv button {
+    width: 100px;
+    padding: 10px;
+    border-radius: 30px;
+    border: none;
+    background-color: rebeccapurple;
+    color: white;
+    cursor: pointer;
 }

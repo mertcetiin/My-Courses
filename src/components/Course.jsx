@@ -1,18 +1,16 @@
-import { useState } from 'react';
+
 
 function Course({ courses, onDelete }) {
 
-    const [reflesh, setReflesh] = useState('Kursların Hepsini Sildin!')
 
     return (
-        <div>
-
+        <div className="cardDiv">
             {courses.map((Courses) => (
-                <div key={Courses.id}>
-                    <h1>{Courses.title}</h1>
-                    <h3>{Courses.price}</h3>
+                <div key={Courses.id} className="card">
+                    <h2 className='cardTitle'>{Courses.title}</h2>
+                    <h4 className='cardPrice'>{Courses.price}</h4>
                     <p>{Courses.content}</p>
-                    <button onClick={() => onDelete(Courses.id)}>Sil</button>
+                    <button className='cardDeleteBtn' onClick={() => onDelete(Courses.id)}>Sil</button>
                 </div>
             ))}
         </div>

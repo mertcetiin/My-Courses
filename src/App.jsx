@@ -32,7 +32,7 @@ function App() {
 
 
   return (
-    <div>
+    <div className="courseMainDiv">
       <h1>Kurslarım</h1>
       {loading ? (
         <Loading />

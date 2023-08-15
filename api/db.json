@@ -3,23 +3,32 @@
         {
             "title": "Angular",
             "id": "1",
-            "content": "Merhaba Angular"
+            "price": "69TL",
+            "content": "Merhaba Angular Kursu lorem ıpsum lorem ıpsum lorem ıpsum lorem ıpsumlorem ıpsum"
         },
         {
             "title": "Bootstrap",
-            "id": "2"
+            "id": "2",
+            "price": "69TL",
+            "content": "Merhaba Bootstrap Kursu lorem ıpsum lorem ıpsum lorem ıpsum lorem ıpsumlorem ıpsum"
         },
         {
             "title": "C Programlama",
-            "id": "3"
+            "id": "3",
+            "price": "69TL",
+            "content": "Merhaba C Programlama Kursu lorem ıpsum lorem ıpsum lorem ıpsum lorem ıpsumlorem ıpsum"
         },
         {
             "title": "Frontend Kursu",
-            "id": "4"
+            "id": "4",
+            "price": "69TL",
+            "content": "Merhaba Frontend Kursu lorem ıpsum lorem ıpsum lorem ıpsum lorem ıpsumlorem ıpsum"
         },
         {
-            "title": "Html Kurse",
-            "id": "5"
+            "title": "Html Kursu",
+            "id": "5",
+            "price": "0TL",
+            "content": "Merhaba Html Kursu lorem ıpsum lorem ıpsum lorem ıpsum lorem ıpsumlorem ıpsum"
         }
     ]
 }

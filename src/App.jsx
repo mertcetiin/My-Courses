@@ -14,12 +14,17 @@ function App() {
   }, [])
 
 
+  const onDelete = (id) => {
+    const deleteCourse = courses.filter((Courses) => Courses.id !== id)
+    setCourses(deleteCourse)
+  }
+
   return (
     <div>
       <h1>Kurslarım</h1>
-      <Course courses={courses} />
+      <Course courses={courses} onDelete={onDelete} />
     </div>
   )
 }
 
-export default App
+export default App;

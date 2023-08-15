@@ -1,4 +1,4 @@
-function Course({ courses }) {
+function Course({ courses, onDelete }) {
 
     return (
         <div>
@@ -7,7 +7,7 @@ function Course({ courses }) {
                     <h1>{Courses.title}</h1>
                     <h3>{Courses.price}</h3>
                     <p>{Courses.content}</p>
-                    <button>Sil</button>
+                    <button onClick={() => onDelete(Courses.id)}>Sil</button>
                 </div>
             ))}
         </div>
